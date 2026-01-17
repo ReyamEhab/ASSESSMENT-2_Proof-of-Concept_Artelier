@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Media App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Social Media Posts</h1>
+
+  <div class="form">
+    <input id="title" placeholder="Post title">
+    <textarea id="content" placeholder="Post content"></textarea>
+    <input type="hidden" id="postId">
+    <button onclick="createOrUpdatePost()">Save Post</button>
+  </div>
+
+  <div id="posts"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
